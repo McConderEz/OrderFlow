@@ -1,0 +1,5 @@
+﻿using OrderService.Domain.Shared;
+
+namespace OrderService.Domain.OrderManagement.Events;
+
+public record CancelledOrderEvent() : IDomainEvent;
