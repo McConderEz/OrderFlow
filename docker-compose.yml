@@ -1,0 +1,6 @@
+﻿services:
+  orderservice.web:
+    image: orderservice.web
+    build:
+      context: .
+      dockerfile: OrderService/src/OrderService.Web/Dockerfile

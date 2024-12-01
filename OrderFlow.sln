@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F2603526-953B-4871-9C75-FE9C3923F6D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Web", "OrderService\src\OrderService.Web\OrderService.Web.csproj", "{C8967364-010E-4902-8294-85C7554668DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{75A20B14-51A0-4110-B16B-32BA944F428B}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Domain", "OrderService\src\OrderService.Domain\OrderService.Domain.csproj", "{447FB48E-C659-45EB-9311-DA5C23CEEA18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Infrastructure", "OrderService\src\OrderService.Infrastructure\OrderService.Infrastructure.csproj", "{4D2930AA-B77A-4E6B-853D-F3EF04A42A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Application", "OrderService\src\OrderService.Application\OrderService.Application.csproj", "{EB4E06A3-D2C4-4419-86E2-903FB240C3A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8967364-010E-4902-8294-85C7554668DF} = {F2603526-953B-4871-9C75-FE9C3923F6D0}
+		{447FB48E-C659-45EB-9311-DA5C23CEEA18} = {F2603526-953B-4871-9C75-FE9C3923F6D0}
+		{4D2930AA-B77A-4E6B-853D-F3EF04A42A90} = {F2603526-953B-4871-9C75-FE9C3923F6D0}
+		{EB4E06A3-D2C4-4419-86E2-903FB240C3A5} = {F2603526-953B-4871-9C75-FE9C3923F6D0}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8967364-010E-4902-8294-85C7554668DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8967364-010E-4902-8294-85C7554668DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8967364-010E-4902-8294-85C7554668DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8967364-010E-4902-8294-85C7554668DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447FB48E-C659-45EB-9311-DA5C23CEEA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447FB48E-C659-45EB-9311-DA5C23CEEA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447FB48E-C659-45EB-9311-DA5C23CEEA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447FB48E-C659-45EB-9311-DA5C23CEEA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D2930AA-B77A-4E6B-853D-F3EF04A42A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2930AA-B77A-4E6B-853D-F3EF04A42A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2930AA-B77A-4E6B-853D-F3EF04A42A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2930AA-B77A-4E6B-853D-F3EF04A42A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB4E06A3-D2C4-4419-86E2-903FB240C3A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4E06A3-D2C4-4419-86E2-903FB240C3A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4E06A3-D2C4-4419-86E2-903FB240C3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4E06A3-D2C4-4419-86E2-903FB240C3A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
