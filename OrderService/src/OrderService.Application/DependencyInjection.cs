@@ -1,6 +1,6 @@
 ﻿namespace OrderService.Application;
 
-public class DependencyInjection
+public static class DependencyInjection
 {
     
 }

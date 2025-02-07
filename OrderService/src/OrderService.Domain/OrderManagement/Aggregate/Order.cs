@@ -7,7 +7,7 @@ public class Order: DomainEntity<OrderId>
 {
     
     //TODO: Реализовать
-
+    //TODO: Переделать в VO
     //Ef core
     private Order(OrderId id) : base(id){}
 
