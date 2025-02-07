@@ -5,5 +5,5 @@ namespace OrderService.Domain.OrderManagement.Entities;
 
 public class Product: Entity<ProductId>
 {
-    
+    //TODO: Переделать в VO
 }
